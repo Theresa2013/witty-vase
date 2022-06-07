@@ -43,8 +43,7 @@ https://theresa2013.github.io/witty-vase/
 https://github.com/Theresa2013/witty-vase.git 
 
 ## Screenshots
-![demo](./assets/images/Screenshot1.png)
-![demo](./assets/images/Screenshot2.png)
+![demo](./assets/images/03-javascript-homework-demo.png)
 
 Contribution
 Made by Theresa Butterfield
