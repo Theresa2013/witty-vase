@@ -51,16 +51,24 @@ function generatePassword() {
   if (confirmSpecialCharacter == true || confirmNumericCharacter == true || confirmLowerCase == true || confirmUpperCase == true) {
 
     if (confirmSpecialCharacter == true) {
-      passwordCharacters += specialChar;
+      for (var i = 0; i < specialChar.length; i++) {
+        passwordCharacters += specialChar[i]
+      }
     }
     if (confirmNumericCharacter == true) {
-      passwordCharacters += number;
+      for (var i = 0; i < number.length; i++) {
+        passwordCharacters += number[i]
+      }
     }
     if (confirmLowerCase == true) {
-      passwordCharacters += alphaLower;
+      for (var i = 0; i < alphaLower.length; i++) {
+        passwordCharacters += alphaLower[i]
+      }
     }
     if (confirmUpperCase == true) {
-      passwordCharacters += alphaUpper;
+      for (var i = 0; i < alphaUpper.length; i++) {
+        passwordCharacters += alphaUpper[i]
+      }
     }
     //log password characters
     console.log(passwordCharacters)
