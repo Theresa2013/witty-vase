@@ -21,6 +21,7 @@ var passwordCharacters;
 
 // Prompt to confirm how many characters the user would like in their password
 function generatePassword() {
+  passwordCharacters = "";
   var confirmLength = (prompt("How many characters would you like your password to have? Enter a number between 8 and 128."));
 
   // while loop to determine character length
